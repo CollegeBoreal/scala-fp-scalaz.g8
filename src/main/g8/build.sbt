@@ -16,8 +16,9 @@ scalacOptions ++= Seq(
     "-unchecked"
   , "-deprecation"
   , "-feature"
-  , "-language:postfixOps"
-  , "-language:reflectiveCalls"
+  , "-language:_"
+  , "-Ypartial-unification"
+  , "-Xfatal-warnings"
 )
 
 
